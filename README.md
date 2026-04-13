@@ -12,77 +12,75 @@
 ---
 
 ## 🏗️ Knowledge Tree Taxonomy | 知识树架构
-
-The project utilizes a top-level **4x4 Orthogonal Matrix Classification**, dividing disciplines across two dimensions: "Theoretical Foundation vs. Practical Application" and "Natural World vs. Human Society."
 项目采用顶层 **4x4 正交矩阵分类法**，通过“理论基础 vs 实践应用”与“自然界 vs 人类社会”两个维度进行正交划分：
 
-### 🍃 1. Natural Sciences | 理科 —— Theoretical Foundation | 理论基础
-*Exploring the underlying laws and logic of the natural world.*
-*探索自然世界的运行规律与底层逻辑。*
+### 1. 🍃 Natural Sciences | 理科 —— 理论基础
+* **Mathematics | 数学**
+    * 学科定位：一切科学与计算的底层逻辑与形式化语言。
+    * 知识涵盖：从连续体系的数学分析（微积分、**Real Analysis**、**Complex Analysis**、**Functional Analysis**）、空间结构的几何拓扑，到离散体系的代数结构与图论。致力于通过严密的公理化演绎，探索数量、结构与空间的核心本质。
+* **Physics  | 物理学**
+    * 学科定位：探究物质结构、相互作用与宇宙演化的基础科学。
+    * 知识涵盖：涵盖刻画宏观低速的 **Classical Mechanics**、揭示电磁交互的 **Electromagnetism**，以及向微观与高速延伸的量子力学与相对论。用最优美的数学模型描述最真实的物理宇宙。
+* **Life Sciences | 生命科学**
+    * 学科定位：研究生命现象、生物体结构与演化规律的科学。
+    * 知识涵盖：从微观的分子与细胞生物学，到宏观的生态学与演化生物学。解码 **DNA** 运作逻辑，探寻生命从无机到有机、从简单到复杂的演进密码。
+* **Chemistry | 化学**
+    * 学科定位：研究物质组成、结构、性质及其转化规律的中心科学。
+    * 知识涵盖：包含无机化学、有机化学及物理化学等。作为连接物理学微观粒子与生命科学大分子的关键桥梁，探索元素周期表背后的无尽组合与能量交换。
 
-#### 📐 Mathematics | 数学
-The core foundational pillar of the system. | 系统的核心知识基石。
-* **Advanced Mathematical Analysis:** Extends from elementary and multivariable calculus to **Real Analysis**, Complex Analysis, and Functional Analysis. | **数学分析进阶:** 从初等微积分、多元微积分延伸至**实分析 (Real Analysis)**、复分析及泛函分析。
-* **Algebraic Systems:** Linear algebra, abstract algebra, and graph theory derivations. | **代数体系:** 线性代数、抽象代数及图论推导。
+### 2. ⚙️ Engineering & Technology | 工科 —— 实践与应用
+* **Computer Science | 计算机**
+    * 学科定位：信息时代的数字基础设施，将数学逻辑转化为可执行的工程。
+    * 知识涵盖：深入 **C/C++** 等底层内存调度、计算机组成原理与 **High-Performance Computing (HPC)** 架构；横跨算法设计、数据结构优化及人工智能模型。是抽象理论与机器物理实现的核心枢纽。
+* **Engineering | 工程**
+    * 学科定位：运用数理基础解决真实世界物理构建与能量转换的综合学科。
+    * 知识涵盖：涉及电子工程、机械工程、土木与航空航天工程等。强调整体系统设计、资源约束下的最优化解以及抗风险的鲁棒性。
+* **Medicine | 医学**
+    * 学科定位：生命科学在人类健康维系与疾病治疗上的终极工程化应用。
+    * 知识涵盖：依托解剖学与生理学基础，涵盖病理学、药理学及临床实践。旨在对抗熵增，延长人类寿命并提升生存质量。
+* **Agriculture | 农学**
+    * 学科定位：自然科学在人类生存资料与生态能量转化中的核心应用。
+    * 知识涵盖：农作物学、林学、畜牧学与现代农业工程。解决人类社会赖以生存的底层能量供给与粮食安全问题。
 
-#### 🌌 Physics | 物理
-The study of matter, interactions, and cosmic evolution. | 探究物质结构、相互作用与宇宙演化的基础科学。
-* **Core Models:** Includes Classical Mechanics, Electromagnetism, and modern physics models. | **核心模型:** 涵盖经典力学、电磁学等核心物理模型。
+### 3. 📊 Social Sciences | 社科 —— 人类社会规律
+* **Economics  | 经济**
+    * 学科定位：研究稀缺资源配置、市场行为与财富创造的数理逻辑。
+    * 知识涵盖：从微观个体决策与价格机制，到宏观经济周期与货币政策；并深度结合微积分与统计学进行严密的数理经济分析与 **Game Theory** 推导。
+* **Politics & Law | 政法**
+    * 学科定位：探究权力分配、社会契约与国家机器运转的规则体系。
+    * 知识涵盖：政治学理论、国际关系、法理学与宪法体系。研究人类如何通过制定规则与制度来维持大型复杂社会的稳定与正义。
+* **Sociology | 社会学**
+    * 学科定位：透视社会结构、群体互动与文化变迁的显微镜。
+    * 知识涵盖：社会分层、组织行为、人口学与社会心理学。跳出个体视角，研究宏观社会力量如何塑造人类的行为与命运。
+* **Psychology | 心理**
+    * 学科定位：连接生物学与社会学，研究个体意识、认知机制与行为动因。
+    * 知识涵盖：认知心理学、行为主义、发展心理学与神经科学。探究大脑物理结构与人类主观心智之间的复杂映射关系。
 
-#### 🧬 Life Sciences | 生命
-The study of life phenomena, biological structures, and evolutionary laws. | 研究生命现象、生物体结构与演化规律的科学。
-* **Scope:** From molecular and cell biology to macro-ecology. | **探索范围:** 从微观的分子与细胞生物学，到宏观的生态学。解码 DNA 运作逻辑。
-
-#### 🧪 Chemistry | 化学
-The central science studying the composition, structure, and transformation of matter. | 研究物质组成、结构及其转化规律的中心科学。
-* **Scope:** The bridge connecting the micro-particles of physics with the macro-molecules of life sciences. | **探索范围:** 作为连接物理学微观粒子与生命科学大分子的关键桥梁。
-
-### ⚙️ 2. Engineering & Technology | 工科 —— Practical Application | 实践与应用
-*Transforming scientific principles into tools that change the world.*
-*将科学原理转化为改变世界的工具。*
-
-#### 💻 Computer Science | 计算机
-The primary technical stack. | 核心技术栈。
-* **Low-level & Architecture:** In-depth study of C/C++ memory management, computer organization, and High-Performance Computing (HPC). | **底层与架构:** 深入 C/C++ 内存管理、计算机组成原理及高性能计算 (HPC)。
-* **Algorithm Design:** Complex algorithm analysis, data structure optimization, and engineering implementation. | **算法设计:** 复杂算法分析、数据结构优化及工程化实现。
-
-#### ⛓️ Other Engineering Branches | 其他工程分支
-Including Engineering, Medicine, and Agriculture. | 包含工程、医学与农学。应用数理基础解决真实世界约束。
-
-### 📊 3. Social Sciences | 社科 —— Patterns of Human Society | 人类社会规律
-*Investigating human behavior, organizational structures, and resource allocation.*
-*研究人类行为、组织形态与资源配置。*
-
-#### 📈 Economics | 经济
-Focused on macro/microeconomic models and **Mathematical Economic Analysis**. | 重点关注宏微观经济模型与**数理经济分析**。
-
-#### ⚖️ Social Foundations | 社会基础
-Covering Politics, Sociology, and Psychology. | 涵盖政法、社会学与心理学。
-
-### 🏛️ 4. Humanities | 文科 —— Thought & Expression | 思想与表达
-*Concerning human meaning, historical evolution, and aesthetic values.*
-*关乎人类意义、历史演进与价值审美。*
-
-#### 📖 Literature & History | 文学与历史
-Exploration of narrative, culture, and chronological evolution. | 对叙事、文化与时间演进的探索。
-
-#### 🎨 Art & Philosophy | 艺术与哲学
-Study of aesthetic expression and fundamental existential questions. | 对审美表达与根本存在问题的研究。
+### 4. 🏛️ Humanities |  文科 —— 思想与表达
+* **Literature | 文学**
+    * 学科定位：通过语言文字的艺术化表达，再现与超越人类经验。
+    * 知识涵盖：叙事学、诗歌体裁、文学批评与比较文学。跨越时空的限制，探索文本背后的深层文化脉络与情感共鸣。
+* **History | 历史**
+    * 学科定位：人类文明的记忆库，探寻时间长河中的兴衰规律。
+    * 知识涵盖：古代史、近现代史、专门史（如科技史、经济史）与史学理论。以批判性思维考证史料，通过过去锚定现在，借以预见未来。
+* **Art | 艺术**
+    * 学科定位：跨越实用主义，对美、情感与精神世界的非理性表达。
+    * 知识涵盖：美术史、音乐理论、视觉设计与建筑美学。研究人类如何通过色彩、声音与空间构造来具象化内在的灵魂体验。
+* **Philosophy | 哲学**
+    * 学科定位：一切学科的元学科，对存在、知识、价值与理性的终极叩问。
+    * 知识涵盖：形而上学、认识论、逻辑学与伦理学。提供反思所有其他 15 个学科的最高底层思维范式。
 
 ---
 
 ## 🚀 Key Features | 核心特性
-
-* **LaTeX Deep Integration:** All mathematical derivations and physical models are rendered using standard LaTeX to ensure academic rigor. | **LaTeX 深度集成:** 所有的数学推导与物理模型均采用标准 LaTeX 渲染，确保学术严谨性。
-* **Interdisciplinary Connections:** Utilizes Notion's Relation databases to bridge knowledge, such as connecting "Graph Theory (Math)" with "Computer Networks (Tech)." | **跨学科关联:** 利用 Notion 的 Relation 数据库，实现了诸如“图论(数学)”与“计算机网络(工科)”的横向知识连接。
-* **Structured Note-taking Logic:** Follows a top-down hierarchical architecture to ensure every piece of information has a precise coordinate. | **结构化笔记逻辑:** 遵循自顶向下的分层架构，确保每一个碎片知识都能在知识树中找到对应的座标。
-* **Four-Level Markdown Framework:** Implements a clear, four-level heading structure to maintain navigational clarity across complex subjects. | **四级标题框架:** 采用清晰的 Markdown 四级标题体系，确保在复杂学科分类中依然保持极高的导航检索效率。
+* **LaTeX 深度集成:** 所有的数学推导与物理模型均采用标准 LaTeX 渲染，确保学术严谨性。
+* **跨学科关联:** 利用 Notion 的 Relation 数据库，实现了诸如“图论(MATH)”与“计算机网络(CS)”的横向知识连接。
+* **结构化笔记逻辑:** 遵循自顶向下的分层架构，确保每一个碎片知识都能在知识树中找到对应的座标。
+* **四级标题框架:** 采用清晰的 Markdown 四级标题体系，确保在复杂学科分类中依然保持极高的导航检索效率。
 
 ---
 
 ## 🔗 Access | 访问链接
-
-Click the card below to visit my Notion Digital Garden:
 点击下方卡片进入我的 Notion 数字花园：
 
 👉 **[Felix's Academic Notes](https://carnation-club-7fb.notion.site/felixs-notes)**
